@@ -1,0 +1,164 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "custom_liquid_DxDUfR": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Footer<\/title>\n    <style>\n     body {\n    font-family: Roboto, sans-serif;\n}\n\n.custom-footer {\n    background-color: #000;\n    padding: 20px;\n    color: white; \/* Ensure the text color is white *\/\n    display: none; \/* Initially hide *\/\n    font-family: Roboto, sans-serif; \/* Set the font style to Roboto *\/\n}\n\n.custom-footer-content {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.custom-newsletter {\n    text-align: center;\n    margin-bottom: 20px;\n    color: white; \/* Ensure the text color is white *\/\n}\n\n.custom-newsletter img {\n    width: 100%;\n    max-width: 400px;\n}\n\n.custom-newsletter h3 {\n    margin-top: 10px;\n    font-size: 16px;\n    font-weight: bold;\n    color: white; \/* Ensure the text color is white *\/\n}\n\n.custom-newsletter p {\n    margin: 10px 0;\n    font-size: 14px;\n    color: white; \/* Ensure the text color is white *\/\n}\n\n.custom-newsletter form {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 10px;\n}\n\n.custom-newsletter form input {\n    padding: 10px;\n    border: none;\n    border-radius: 5px;\n    width: 70%;\n    max-width: 250px;\n    font-family: Roboto, sans-serif; \/* Set the font style to Roboto *\/\n}\n\n.custom-newsletter form button {\n    padding: 10px;\n    background-color: white;\n    color: black;\n    border: none;\n    border-radius: 5px;\n    cursor: pointer;\n    font-family: Roboto, sans-serif; \/* Set the font style to Roboto *\/\n}\n\n.custom-accordion {\n    width: 100%;\n    margin-bottom: 10px;\n}\n\n.custom-accordion-header {\n    background-color: #;\n    padding: 15px;\n    font-size: 16px;\n    cursor: pointer;\n    text-align: left;\n    width: 100%;\n    position: relative;\n    color: white; \/* Ensure the text color is white *\/\n}\n\n.custom-accordion-header::after {\n    content: '\\25BC'; \/* Dropdown arrow *\/\n    font-size: 12px;\n    position: absolute;\n    right: 15px;\n    top: 50%;\n    transform: translateY(-50%);\n    color: white; \/* Ensure the text color is white *\/\n    transition: transform 0.3s; \/* Add transition for smooth rotation *\/\n}\n\n.custom-accordion-header.active::after {\n    transform: translateY(-50%) rotate(180deg); \/* Rotate the arrow when active *\/\n}\n\n.custom-accordion-content {\n    display: none;\n    background-color: ;\n    padding: 15px;\n    width: 100%;\n    color: white; \/* Ensure the text color is white *\/\n}\n\n.custom-accordion-content ul {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n}\n\n.custom-accordion-content ul li {\n    margin-bottom: 10px;\n}\n\n.custom-payment-methods, .custom-social-media, .custom-legal-links {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    margin-top: 20px;\n    color: white; \/* Ensure the text color is white *\/\n}\n\n.custom-payment-methods img, .custom-social-media a, .custom-legal-links a {\n    margin: 5px;\n    color: white; \/* Ensure the text color is white *\/\n}\n\n.custom-social-media a {\n    color: white; \/* Ensure the text color is white *\/\n    font-size: 20px;\n    text-decoration: none;\n}\n\n.custom-legal-links a {\n    color: white; \/* Ensure the text color is white *\/\n    font-size: 12px;\n    text-decoration: none;\n    margin: 5px;\n}\n\n@media (max-width: 768px) {\n    .custom-footer {\n        display: block; \/* Show on mobile *\/\n    }\n}\n\n    <\/style>\n<\/head>\n<body>\n    <footer class=\"custom-footer\">\n        <div class=\"custom-footer-content\">\n            <div class=\"custom-newsletter\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0882\/6552\/3519\/files\/5_430x.png?v=1717749772#\" alt=\"10% Off\">\n                <h3>Join today and get 10% off your first order!<\/h3>\n                <p>Enter your email below to be the first to know about new collections and product launches.<\/p>\n                <form>\n                    <input type=\"email\" placeholder=\"Enter your email\">\n                    <button type=\"submit\"><i class=\"fas fa-arrow-right\"><\/i><\/button>\n                <\/form>\n            <\/div>\n            <div class=\"custom-accordion\">\n                <h3 class=\"custom-accordion-header\">Account<\/h3>\n                <div class=\"custom-accordion-content\">\n                    <ul>\n                        <li><a href=\"#\">My Profile<\/a><\/li>\n                        <li><a href=\"#\">Gift Cards<\/a><\/li>\n                        <li><a href=\"#\">Wishlist<\/a><\/li>\n                    <\/ul>\n                <\/div>\n            <\/div>\n            <div class=\"custom-accordion\">\n                <h3 class=\"custom-accordion-header\">Customer Services<\/h3>\n                <div class=\"custom-accordion-content\">\n                    <ul>\n                        <li><a href=\"#\">FAQs<\/a><\/li>\n                        <li><a href=\"#\">Delivery & Returns Policy<\/a><\/li>\n                        <li><a href=\"#\">Store Locator<\/a><\/li>\n                        <li><a href=\"#\">Need Help?<\/a><\/li>\n                    <\/ul>\n                <\/div>\n            <\/div>\n            <div class=\"custom-accordion\">\n                <h3 class=\"custom-accordion-header\">About Ackermans<\/h3>\n                <div class=\"custom-accordion-content\">\n                    <ul>\n                        <li><a href=\"#\">About Us<\/a><\/li>\n                        <li><a href=\"#\">Careers<\/a><\/li>\n                        <li><a href=\"#\">Blog<\/a><\/li>\n                        <li><a href=\"#\">Competitions<\/a><\/li>\n                        <li><a href=\"#\">Ububele Foundation<\/a><\/li>\n                        <li><a href=\"#\">Listen to Ackermans sound<\/a><\/li>\n                    <\/ul>\n                <\/div>\n            <\/div>\n            <div class=\"custom-accordion\">\n                <h3 class=\"custom-accordion-header\">Financial Services<\/h3>\n                <div class=\"custom-accordion-content\">\n                    <ul>\n                        <li><a href=\"#\">A+ Account<\/a><\/li>\n                        <li><a href=\"#\">Lay-by<\/a><\/li>\n                        <li><a href=\"#\">Insurance<\/a><\/li>\n                        <li><a href=\"#\">Loans<\/a><\/li>\n                        <li><a href=\"#\">Bill Payments<\/a><\/li>\n                        <li><a href=\"#\">Money Transfer<\/a><\/li>\n                        <li><a href=\"#\">Vouchers<\/a><\/li>\n                    <\/ul>\n                <\/div>\n            <\/div>\n            <div class=\"custom-payment-methods\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Visa\" alt=\"Visa\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Mastercard\" alt=\"Mastercard\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Capitec+Pay\" alt=\"Capitec Pay\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Payflex\" alt=\"Payflex\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Ackermans\" alt=\"Ackermans\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=PEP\" alt=\"PEP\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Dunns\" alt=\"Dunns\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=TekkieTown\" alt=\"TekkieTown\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Refinery\" alt=\"Refinery\">\n            <\/div>\n            <div class=\"custom-social-media\">\n                <a href=\"#\"><i class=\"fab fa-facebook-f\"><\/i><\/a>\n                <a href=\"#\"><i class=\"fab fa-instagram\"><\/i><\/a>\n                <a href=\"#\"><i class=\"fab fa-linkedin-in\"><\/i><\/a>\n                <a href=\"#\"><i class=\"fab fa-youtube\"><\/i><\/a>\n                <a href=\"#\"><i class=\"fab fa-tiktok\"><\/i><\/a>\n            <\/div>\n            <div class=\"custom-legal-links\">\n                <a href=\"#\">Terms & Conditions<\/a>\n                <a href=\"#\">Pepkor Privacy Policy<\/a>\n                <a href=\"#\">Cookie Policy<\/a>\n                <a href=\"#\">Competition Rules<\/a>\n                <a href=\"#\">Promotion of Access to Information Act Manual<\/a>\n            <\/div>\n        <\/div>\n    <\/footer>\n\n    <script>\n        document.querySelectorAll('.custom-accordion-header').forEach(header => {\n            header.addEventListener('click', () => {\n                const content = header.nextElementSibling;\n                const isVisible = content.style.display === 'block';\n\n                \/\/ Hide all accordion contents\n                document.querySelectorAll('.custom-accordion-content').forEach(item => {\n                    item.style.display = 'none';\n                    item.previousElementSibling.classList.remove('active');\n                });\n\n                \/\/ Show the clicked accordion content\n                if (!isVisible) {\n                    content.style.display = 'block';\n                    header.classList.add('active');\n                } else {\n                    header.classList.remove('active');\n                }\n            });\n        });\n    <\/script",
+        "custom_class": ""
+      }
+    },
+    "custom_liquid_ipnwCa": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Footer Section<\/title>\n    <link href=\"https:\/\/fonts.googleapis.com\/css2?family=Roboto:wght@400;500;700&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            margin: 0;\n            font-family: 'Roboto', Roboto;\n        }\n\n        .footer {\n            background-color: #333;\n            color: #fff;\n            padding: 20px 40px;\n        }\n\n        .footer .footer-content {\n            display: flex;\n            justify-content: space-between;\n            flex-wrap: wrap;\n        }\n\n        .footer .column {\n            flex: 1;\n            margin: 20px;\n            min-width: 150px;\n        }\n\n        .footer .column h3 {\n            font-size: 18px;\n            margin-bottom: 10px;\n            font-weight: 700;\n        }\n\n        .footer .column ul {\n            list-style: none;\n            padding: 0;\n        }\n\n        .footer .column ul li {\n            margin-bottom: 10px;\n        }\n\n        .footer .column ul li a {\n            color: #fff;\n            text-decoration: none;\n            font-weight: 400;\n        }\n\n        .footer .newsletter {\n            text-align: left;\n            padding: 20px;\n            max-width: 300px;\n        }\n\n        .footer .newsletter h3 {\n            font-size: 12px;\n            margin-bottom: 10px;\n            font-weight: 700;\n        }\n\n        .footer .newsletter p {\n            margin-bottom: 10px;\n            font-weight: 400;\n        }\n\n        .footer .newsletter form {\n            display: flex;\n            align-items: center;\n        }\n\n        .footer .newsletter input[type=\"email\"] {\n            padding: 10px;\n            border: none;\n            border-radius: 5px;\n            margin-right: 10px;\n            width: 200px;\n            font-family: 'Roboto', sans-serif;\n        }\n\n        .footer .newsletter button {\n            padding: 10px;\n            border: none;\n            border-radius: 5px;\n            background-color: #555;\n            color: #fff;\n            cursor: pointer;\n            font-family: 'Roboto', sans-serif;\n        }\n\n        .footer .payment-and-social {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            flex-wrap: wrap;\n            margin-top: 20px;\n        }\n\n        .footer .payment-methods {\n            display: flex;\n            align-items: center;\n            flex-wrap: wrap;\n        }\n\n        .footer .payment-methods img {\n            margin: 5px 10px;\n        }\n\n        .footer .social-media {\n            display: flex;\n            align-items: center;\n        }\n\n        .footer .social-media a {\n            color: #fff;\n            margin: 0 10px;\n            font-size: 20px;\n            text-decoration: none;\n        }\n\n        .footer .bottom-links {\n            display: flex;\n            justify-content: flex-start;\n            flex-wrap: wrap;\n            margin-top: 20px;\n            padding-top: 20px;\n            border-top: 1px solid #444;\n        }\n\n        .footer .bottom-links a {\n            color: #fff;\n            margin: 0 15px;\n            text-decoration: none;\n            font-weight: 400;\n        }\n\n        @media (max-width: 768px) {\n            .footer .footer-content {\n                flex-direction: column;\n                align-items: center;\n            }\n\n            .footer .column {\n                margin: 10px 0;\n                text-align: center;\n            }\n\n            .footer .newsletter {\n                text-align: center;\n            }\n\n            .footer .newsletter form {\n                flex-direction: column;\n            }\n\n            .footer .newsletter input[type=\"email\"] {\n                margin-bottom: 10px;\n            }\n\n            .footer .payment-and-social {\n                flex-direction: column;\n            }\n\n            .footer .bottom-links {\n                justify-content: center;\n                text-align: center;\n            }\n\n            .footer .bottom-links a {\n                margin: 5px 0;\n            }\n        }\n\n        @media (max-width: 768px) {\n            .footer {\n                display: none;\n            }\n        }\n    <\/style>\n<\/head>\n<body>\n    <footer class=\"footer\">\n        <div class=\"footer-content\">\n            <div class=\"column\">\n                <h3 style=\"color:white;\">Account<\/h3>\n                <ul>\n                    <li><a href=\"#\">My Profile<\/a><\/li>\n                    <li><a href=\"#\">Gift Cards<\/a><\/li>\n                    <li><a href=\"#\">Wishlist<\/a><\/li>\n                <\/ul>\n            <\/div>\n            <div class=\"column\">\n                <h3 style=\"color:white;\">Customer Services<\/h3>\n                <ul>\n                    <li><a href=\"#\">FAQs<\/a><\/li>\n                    <li><a href=\"#\">Delivery & Returns Policy<\/a><\/li>\n                    <li><a href=\"#\">Store Locator<\/a><\/li>\n                    <li><a href=\"#\">Need Help?<\/a><\/li>\n                <\/ul>\n            <\/div>\n            <div class=\"column\">\n                <h3 style=\"color:white;\">About Ackermans<\/h3>\n                <ul>\n                    <li><a href=\"#\">About Us<\/a><\/li>\n                    <li><a href=\"#\">Careers<\/a><\/li>\n                    <li><a href=\"#\">Blog<\/a><\/li>\n                    <li><a href=\"#\">Competitions<\/a><\/li>\n                    <li><a href=\"#\">Ububele Foundation<\/a><\/li>\n                    <li><a href=\"#\">Listen to Ackermans sound<\/a><\/li>\n                <\/ul>\n            <\/div>\n            <div class=\"column\">\n                <h3 style=\"color:white;\">Financial Services<\/h3>\n                <ul>\n                    <li><a href=\"#\">A+ Account<\/a><\/li>\n                    <li><a href=\"#\">Lay-by<\/a><\/li>\n                    <li><a href=\"#\">Insurance<\/a><\/li>\n                    <li><a href=\"#\">Loans<\/a><\/li>\n                    <li><a href=\"#\">Bill Payments<\/a><\/li>\n                    <li><a href=\"#\">Money Transfer<\/a><\/li>\n                    <li><a href=\"#\">Vouchers<\/a><\/li>\n                <\/ul>\n            <\/div>\n            <div class=\"newsletter\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0882\/6552\/3519\/files\/5_430x.png?v=1717749772#\">\n                <h3 style=\"color:white;font-size:12px\">Join us today and get 10% off your first order!<\/h3>\n                <p>Enter your email below to be the first to know about new collections and product launches.<\/p>\n                <form>\n                    <input type=\"email\" placeholder=\"Enter email address\">\n                    <button type=\"submit\"><i class=\"fas fa-arrow-right\"><\/i><\/button>\n                <\/form>\n            <\/div>\n        <\/div>\n        <div class=\"payment-and-social\">\n            <div class=\"payment-methods\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Visa\" alt=\"Visa\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Mastercard\" alt=\"Mastercard\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Capitec+Pay\" alt=\"Capitec Pay\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Payflex\" alt=\"Payflex\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Ackermans\" alt=\"Ackermans\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=PEP\" alt=\"PEP\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Dunns\" alt=\"Dunns\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=TekkieTown\" alt=\"TekkieTown\">\n                <img src=\"https:\/\/via.placeholder.com\/50x30?text=Refinery\" alt=\"Refinery\">\n            <\/div>\n            <div class=\"social-media\">\n                <a href=\"#\"><i class=\"fab fa-facebook-f\"><\/i><\/a>\n                <a href=\"#\"><i class=\"fab fa-instagram\"><\/i><\/a>\n                <a href=\"#\"><i class=\"fab fa-linkedin-in\"><\/i><\/a>\n                <a href=\"#\"><i class=\"fab fa-youtube\"><\/i><\/a>\n                <a href=\"#\"><i class=\"fab fa-tiktok\"><\/i><\/a>\n            <\/div>\n        <\/div>\n        <div class=\"bottom-links\">\n            <a href=\"#\">Terms & Conditions<\/a>\n            <a href=\"#\">Pepkor Privacy Policy<\/a>\n            <a href=\"#\">Cookie Policy<\/a>\n            <a href=\"#\">Competition Rules<\/a>\n            <a href=\"#\">Promotion of Access to Information Act Manual<\/a>\n        <\/div>\n    <\/footer>\n    <!-- Font Awesome for icons -->\n    <script src=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/5.15.4\/js\/all.min.js\" integrity=\"sha512-KH1tjqcTKcNftFdLDk44X1jQaA4+kNpMO7C+Zt\"><\/script>\n<\/body>\n<\/html>",
+        "custom_class": ""
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_zY7KDN": {
+          "type": "menu",
+          "settings": {
+            "menu": "account",
+            "title": "Account",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "91b85a10-d8a2-46a7-86fa-3956c01c37e1": {
+          "type": "menu",
+          "settings": {
+            "menu": "customer-services",
+            "title": "Customer Services",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "menu_zkWEek": {
+          "type": "menu",
+          "settings": {
+            "menu": "about-ackermans",
+            "title": "About Ackermans",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "912cbfec-f115-4fb9-a8b2-01b66e500639": {
+          "type": "menu",
+          "settings": {
+            "menu": "financial-services",
+            "title": "Financial Services",
+            "width": "25%",
+            "order_first": false,
+            "open_default": false
+          }
+        },
+        "newsletter_Bwih6y": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Join us today and get 10% off your first order!",
+            "subtitle": "Enter your email below to be the first to know about new collections and product launches.",
+            "width": "33%",
+            "order_first": true,
+            "open_default": false
+          }
+        }
+      },
+      "block_order": [
+        "menu_zY7KDN",
+        "91b85a10-d8a2-46a7-86fa-3956c01c37e1",
+        "menu_zkWEek",
+        "912cbfec-f115-4fb9-a8b2-01b66e500639",
+        "newsletter_Bwih6y"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-41e46833-ad91-47d4-adac-11fed82d58f5",
+        "design": "footer-1",
+        "container": "container-fluid",
+        "bordered": false,
+        "copyright": "",
+        "show_country_selector": false,
+        "show_currency_selector": false,
+        "show_language_selector": false,
+        "show_social_links": false,
+        "enable_follow_on_shop": false,
+        "show_payment_icons": false,
+        "payment_icons_width": 300,
+        "footer_bottom_color_scheme": "scheme-41e46833-ad91-47d4-adac-11fed82d58f5",
+        "footer_bottom_menu": "",
+        "show_menu_item_divider": false
+      }
+    },
+    "mobile-sticky-bar": {
+      "type": "mobile-sticky-bar",
+      "settings": {
+        "show_mobile_sticky": true,
+        "show_home_icon": true,
+        "show_collection_icon": true,
+        "show_cart_icon": true,
+        "show_search_icon": true,
+        "show_account_icon": false,
+        "show_wishlist_icon": false
+      }
+    },
+    "age-verifier-popup": {
+      "type": "age-verifier-popup",
+      "blocks": {
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Confirm your age"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you 18 years old or older?<\/p>"
+          }
+        },
+        "block-3": {
+          "type": "buttons",
+          "settings": {
+            "decline_button": "No, I'm not",
+            "approve_button": "Yes, I am"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "design_mode": true,
+        "enable": true,
+        "bg_image": "shopify:\/\/shop_images\/5.png",
+        "bg_blur": false,
+        "decline_heading": "Come back when you're older",
+        "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+        "return_button": "Oops, I entered incorrectly"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_DxDUfR",
+    "custom_liquid_ipnwCa",
+    "footer",
+    "mobile-sticky-bar",
+    "age-verifier-popup"
+  ]
+}

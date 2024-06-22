@@ -1,0 +1,450 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "slider_BaaMqt": {
+      "type": "slider",
+      "blocks": {
+        "slider_item_arjK87": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/401f226b-woman_bannerh-copy.webp",
+            "mb_background": "shopify:\/\/shop_images\/401f226b-woman_bannerh-copy.webp",
+            "content_in_container": false,
+            "content_position": "center middle",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_arjK87"
+      ],
+      "settings": {
+        "container": "w-full",
+        "slideshow_height": "adapt",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "dark",
+        "show_dots": true,
+        "show_arrows": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collection_list_47Jx86": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_block_DLzxpU": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "denim",
+            "title": "Denim",
+            "item_image": "shopify:\/\/shop_images\/312593b1-woman-denim_500x500_9585e986-94f7-4561-842e-b1b0d9b41df7.webp"
+          }
+        },
+        "collection_block_fMCfyR": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "clothing",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/30b5bc3c-clothing_500x500-copy.webp"
+          }
+        },
+        "collection_block_ebzTEV": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "dresses",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/049febc6-dresses_500x500-copy.webp"
+          }
+        },
+        "collection_block_cNJNX9": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "tops",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/828e818e-tops_500x500_13a45f2c-9465-42a8-a882-c0882197514b.webp"
+          }
+        },
+        "collection_block_RzzEKk": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "jackets",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/0fb4a18a-jackets_500x500_a40acf24-7a89-4212-828b-70ce9d697f21.webp"
+          }
+        },
+        "collection_block_MALQYc": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "knitwear",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/571ccd0d-knitware_500x500_6697e813-7ea4-4fed-9220-5d284539803d.webp"
+          }
+        },
+        "collection_block_cPPCk3": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "tees",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/c98c4ca9-tees_500x500-copy.webp"
+          }
+        },
+        "collection_block_CpNCWH": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "lingerie",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/02c091f6-lingerie_500x500_71dfafff-ed2e-4aa4-8bda-de01d780861e.webp"
+          }
+        },
+        "collection_block_C7z9EJ": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "pants",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/1fd8e45b-pants_500x500_62d78e53-41f0-460c-a875-bb27bc061570.webp"
+          }
+        },
+        "collection_block_cbdhfJ": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "sleepwear",
+            "title": "",
+            "item_image": "shopify:\/\/shop_images\/0b28923f-sleepware_500x500_6bbf45ed-8c02-4c09-a11d-e15e235d98f1.webp"
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_DLzxpU",
+        "collection_block_fMCfyR",
+        "collection_block_ebzTEV",
+        "collection_block_cNJNX9",
+        "collection_block_RzzEKk",
+        "collection_block_MALQYc",
+        "collection_block_cPPCk3",
+        "collection_block_CpNCWH",
+        "collection_block_C7z9EJ",
+        "collection_block_cbdhfJ"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container",
+        "layout": "grid",
+        "expanded": false,
+        "card_style": "standard",
+        "text_alignment": "center",
+        "hover_effect": "scaling-down",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": true,
+        "items_per_row": 5,
+        "item_gap": 45,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 26,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_1_tX9GTB": {
+      "type": "image-with-text-1",
+      "blocks": {
+        "item_idVMr3": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/9341e440-jackets_bannerg-recovered.webp",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_CpW7d9": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/1d6894c1-makeup_bannerg-recovered.webp",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_3bdfKE": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/736e2cdb-knitwear_bannerg-recovered.webp",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        }
+      },
+      "block_order": [
+        "item_idVMr3",
+        "item_CpW7d9",
+        "item_3bdfKE"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "layout": "layout_2",
+        "gap": 30,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "padding_top": 18,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_8kfypc": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "color_scheme": "",
+        "container": "container",
+        "collection": "women",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 6,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_1_eU6d66": {
+      "type": "image-with-text-1",
+      "blocks": {
+        "item_kGjFpJ": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/d3257835-tracktops_bannerf.webp",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_8cccKV": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/9154ce76-bags_bannerf-1.webp",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        },
+        "item_DWdTk3": {
+          "type": "item",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/bb1b5d71-denim_bannerf-1.webp",
+            "link": "",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "button_fixed": false
+          }
+        }
+      },
+      "block_order": [
+        "item_kGjFpJ",
+        "item_8cccKV",
+        "item_DWdTk3"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "layout": "layout_2",
+        "gap": 30,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "padding_top": 18,
+        "padding_bottom": 0,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "slider_9RnznX": {
+      "type": "slider",
+      "blocks": {
+        "slider_item_MEE6aq": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/7ee7e666-finacial_sevices_bannere.webp",
+            "content_in_container": false,
+            "content_position": "center middle",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "image_link": "",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_style": "m-button--primary",
+            "button_size": "",
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_style": "m-button--primary",
+            "second_button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_MEE6aq"
+      ],
+      "settings": {
+        "container": "w-full",
+        "slideshow_height": "adapt",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "dark",
+        "show_dots": true,
+        "show_arrows": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "use_content_above": false,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slider_BaaMqt",
+    "collection_list_47Jx86",
+    "image_with_text_1_tX9GTB",
+    "featured_collection_8kfypc",
+    "image_with_text_1_eU6d66",
+    "slider_9RnznX"
+  ]
+}

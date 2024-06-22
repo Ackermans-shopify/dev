@@ -1,0 +1,112 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "custom_liquid_aLNxtk": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"styles.css\">\n    <title>Promo Section<\/title>\n    <style>h3 {\n    font-family: 'Roboto';\n}\n        body {\n            margin: 0;\n            font-family: Roboto, sans-serif;\n        }\n        .promo-banner {\n            display: flex;\n            justify-content: space-evenly;\n            align-items: center;\n            background-color: #333;\n            color: #fff;\n            padding: 10px 185px;\n        }\n        .promo-banner-item {\n            display: flex;\n            align-items: center;\n            gap: 10px;\n        }\n        .promo-banner-item img {\n            font-size: 10px;\n        }\n        \/* Responsive adjustments *\/\n        \/* Media query for mobile devices *\/\n        @media (max-width: 768px) {\n            .promo-banner {\n                display: none;\n            }\n        }\n    <\/style>\n<\/head>\n<body>\n    <div class=\"promo-banner\">\n        <div class=\"promo-banner-item\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0882\/6552\/3519\/files\/icons8-delivery-20_430x.png?v=1718083188\" alt=\"Delivery Icon\" class=\"promo-banner-icon\">\n            <h3 style=\"color:white;font-size:12px\">Free delivery over R450<\/h3>\n        <\/div>\n        <div class=\"promo-banner-item\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0882\/6552\/3519\/files\/icons8-bag-20_430x.png?v=1718083274\" alt=\"Bag Icon\" class=\"promo-banner-icon\">\n            <h3 style=\"color:white;font-size:12px\">Free Collection at any store in South Africa<\/h3>\n        <\/div>\n        <div class=\"promo-banner-item\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0882\/6552\/3519\/files\/icons8-a-20_430x.png?v=1718083354\" alt=\"Flexible Payment Icon\" class=\"promo-banner-icon\">\n            <h3 style=\"color:white;font-size:12px\">Buy More, Pay later using flexible payment options<\/h3>\n        <\/div>\n    <\/div>\n<\/body>\n<\/html>",
+        "custom_class": ""
+      }
+    },
+    "custom_liquid_UxULyG": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"styles.css\">\n    <title>Promo Section<\/title>\n    <style>\n        body {\n            margin: 0;\n            font-family: Roboto, sans-serif;\n        }\n        .promo-mobile-section {\n            display: none;\n        }\n        .promo-mobile-item {\n            display: flex;\n            align-items: center;\n            gap: 10px;\n            background-color: #333;\n            color: #fff;\n            padding: 10px 0;\n            justify-content: center;\n            width: 100%;\n        }\n        .promo-mobile-item img {\n            font-size: 10px;\n        }\n        \/* Media query for mobile devices *\/\n        @media (max-width: 768px) {\n            .promo-mobile-section {\n                display: flex;\n                justify-content: center;\n                align-items: center;\n                width: 100%;\n            }\n        }\n    <\/style>\n<\/head>\n<body>\n    <div class=\"promo-mobile-section\">\n        <div class=\"promo-mobile-item\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0882\/6552\/3519\/files\/icons8-delivery-20_430x.png?v=1718083188\" alt=\"Delivery Icon\" class=\"promo-mobile-icon\">\n            <h3 style=\"color:white;font-size:12px\">Free delivery over R450<\/h3>\n        <\/div>\n    <\/div>\n<\/body>\n<\/html>",
+        "custom_class": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "8104f690-f152-4a2a-a0f5-7e6c792e3669": {
+          "type": "custom_html",
+          "settings": {
+            "heading": "Home",
+            "container": "container-fluid",
+            "html": ""
+          }
+        },
+        "topbar_Wyhkct": {
+          "type": "topbar",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "show_divider": false,
+            "transparent_on_top": false,
+            "show_phone_numb": false,
+            "show_email": false,
+            "show_social_links": false,
+            "show_stores_page": false,
+            "show_currency_switcher": false,
+            "show_country_selector": false,
+            "show_language_switcher": false,
+            "alert_message": ""
+          }
+        }
+      },
+      "block_order": [
+        "8104f690-f152-4a2a-a0f5-7e6c792e3669",
+        "topbar_Wyhkct"
+      ],
+      "custom_css": [
+        ".m-search-form--full {border: 1px solid rgb(108 102 102) !important; border-radius: 0.775rem !important; transition: border 0.3s; height: 42px;}",
+        ".m-header__main.m-menu-bar.m-gradient.m-color-default {border-top: 1px solid #e9e9e9;}",
+        ".m-header__right a {font-weight: 600;}"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "color_scheme_menu": "default",
+        "header_design": "logo-center__2l",
+        "container": "container-fluid",
+        "sticky_header": "on_scroll_up",
+        "transparent_on_top": false,
+        "transparent_text_color": "#ffffff",
+        "logo_text": "ACKERMANS",
+        "logo": "shopify:\/\/shop_images\/Ackermans_Brand_Logo-01.png",
+        "logo_mobile": "shopify:\/\/shop_images\/ack-logo.19c106673889f63646fa4018a9530cbc.svg",
+        "logo_svg": "",
+        "logo_mobile_svg": "",
+        "logo_transparent_svg": "",
+        "logo_max_width": 200,
+        "sticky_logo_max_width": 200,
+        "mobile_logo_max_width": 100,
+        "main_menu": "home-page",
+        "secondary_menu": "",
+        "mobile_menu": "",
+        "uppercase_parent_level": true,
+        "show_menu_column_divider": true,
+        "search": "show_full",
+        "show_account_icon": true,
+        "show_cart_icon": true,
+        "show_wishlist_icon": true,
+        "show_compare_icon": false,
+        "show_currency_switcher": false,
+        "show_country_selector": false,
+        "show_language_switcher": false,
+        "mb_show_currency_switcher": false,
+        "mb_show_country_selector": false,
+        "mb_show_language_switcher": false
+      }
+    },
+    "custom_liquid_JePp3i": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_aLNxtk",
+    "custom_liquid_UxULyG",
+    "header",
+    "custom_liquid_JePp3i"
+  ]
+}
